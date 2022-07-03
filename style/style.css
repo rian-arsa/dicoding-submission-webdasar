@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400');
+
+
+* {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+    padding: 0;
+    color: #2C3639;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    /* font-weight: bold; */
+    color: #A27B5C;
+}
+
+header {
+    text-align: center;
+    background-color: #DCD7C9;
+    padding: 30px;
+}
+
+header nav {
+    margin-top: 30px;
+}
+
+main img {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 30px;
+}
+
+aside img {
+    width: 150px;
+}
+
+.artikel-item {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.artikel-item h5 {
+    color: #A27B5C;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #A27B5C;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (min-width: 280px) { 
+    nav ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    main {
+        border: none;
+        width: 85%;
+        float: none;
+    }
+
+    aside {
+        padding: 30px;
+        float: none;
+        background-color: #DCD7C9;
+        text-align: center;
+    }
+
+    aside table {
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px)  {
+    /* For Dekstop */
+    main {
+        border: none;
+        width: 90%;
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 992px)  {
+    /* For Dekstop */
+
+    nav ul li{
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    main {
+        float: left;
+        padding: 30px;
+        width: 70%;
+        border-right: 1px solid #A27B5C;
+    }
+
+    
+    aside {
+        padding: 30px;
+        float: left;
+        background: none;
+    }
+    
+}
+
