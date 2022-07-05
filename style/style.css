@@ -91,13 +91,12 @@ footer {
 
 @media only screen and (min-width: 992px)  {
     /* For Dekstop */
-
     nav ul li{
         display: inline-block;
         margin-right: 50px;
     }
 
-    main {
+    #content {
         float: left;
         padding: 30px;
         width: 70%;
@@ -107,7 +106,6 @@ footer {
     
     aside {
         padding: 30px;
-        float: left;
         background: none;
     }
     
